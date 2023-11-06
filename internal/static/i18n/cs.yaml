@@ -106,7 +106,7 @@ Errors:
     PAT:
       NotFound: Osobní přístupový token nenalezen
     NotHuman: Uživatel musí být fyzická osoba
-    NotMachine: Uživatel musí být technická entita
+    NotMachine: Uživatel musí být systémový uživatel / technická entita
     WrongType: Nepovolen pro tento typ uživatele
     NotAllowedToLink: Uživatel nemá povolení propojit se s externím poskytovatelem přihlášení
     Username:
@@ -201,7 +201,7 @@ Errors:
     IdpInvalid: Konfigurace IDP je neplatná
     IdpNotExisting: Konfigurace IDP neexistuje
     OIDCConfigInvalid: Konfigurace OIDC IDP je neplatná
-    IdpIsNotOIDC: Konfigurace IDP není typu oidc
+    IdpIsNotOIDC: Konfigurace IDP není typu OIDC
     Domain:
       AlreadyExists: Doména již existuje
       InvalidCharacter: Pro doménu jsou povoleny pouze alfanumerické znaky, . a -
@@ -432,7 +432,7 @@ Errors:
   Login:
     LoginPolicy:
       MFA:
-        ForceAndNotConfigured: Vícefaktorové ověření je nastaveno jako povinné, ale nejsou nakonfigurovány žádné možné poskytovatele. Kontaktujte prosím vašeho systémového administrátora.
+        ForceAndNotConfigured: Vícefaktorové ověření je nastaveno jako povinné, ale nejsou nakonfigurovány žádní poskytovatelé. Kontaktujte prosím vašeho systémového administrátora.
   Step:
     Started:
       AlreadyExists: Krok již byl zahájen
@@ -456,7 +456,7 @@ Errors:
     NotFound: Akce nenalezena
     NotActive: Akce není aktivní
     NotInactive: Akce není neaktivní
-    MaxAllowed: Není dovoleno dalších aktivních akcí
+    MaxAllowed: Není dovoleno více aktivních akcí
   Flow:
     FlowTypeMissing: Chybí typ toku
     Empty: Tok je již prázdný
@@ -1203,7 +1203,7 @@ EventTypes:
           changed: Heslo konfigurace SMTP změněno
         removed: Konfigurace SMTP odstraněna
 
-Aplikace:
+Application:
   OIDC:
     UnsupportedVersion: Vaše verze OIDC není podporována
     V1:
@@ -1231,7 +1231,7 @@ Aplikace:
         Refresh:
           NoAuthCode: Refresh Token je povolen pouze v kombinaci s Authorization Code.
 
-Akce:
+Action:
   Flow:
     Type:
       Unspecified: Nespecifikováno

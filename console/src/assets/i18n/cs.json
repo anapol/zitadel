@@ -3,7 +3,7 @@
   "PAGINATOR": {
     "PREVIOUS": "Předchozí",
     "NEXT": "Další",
-    "COUNT": "Celkový počet výsledků",
+    "COUNT": "Celkem",
     "MORE": "Více"
   },
   "FOOTER": {
@@ -23,16 +23,16 @@
     "DISCLAIMERLINK": "Další informace",
     "DOCUMENTATION": {
       "TITLE": "Dokumentace",
-      "DESCRIPTION": "Začněte s ZITADEL rychle."
+      "DESCRIPTION": "Rychlý start se ZITADEL."
     },
     "GETSTARTED": {
       "TITLE": "Začněte s ZITADEL",
-      "DESCRIPTION": "Začněte s ZITADEL rychle."
+      "DESCRIPTION": "Rychlý start se ZITADEL."
     },
     "QUICKSTARTS": {
       "LABEL": "První kroky",
       "TITLE": "Rychlý start",
-      "DESCRIPTION": "Začněte s ZITADEL rychle."
+      "DESCRIPTION": "Rychlý start se ZITADEL."
     },
     "SHORTCUTS": {
       "SHORTCUTS": "Zkratky",
@@ -43,18 +43,18 @@
     }
   },
   "ONBOARDING": {
-    "DESCRIPTION": "Váš proces zaučení",
-    "MOREDESCRIPTION": "více zkratky",
+    "DESCRIPTION": "Váš začáteční proces",
+    "MOREDESCRIPTION": "více zkratek",
     "COMPLETED": "dokončeno",
     "DISMISS": "Ne, děkuji, jsem profesionál.",
     "CARD": {
-      "TITLE": "Nastavte svůj ZITADEL",
-      "DESCRIPTION": "Tento kontrolní seznam pomáhá nastavit vaši instanci a provede vás nejdůležitějšími kroky"
+      "TITLE": "Nastavte Váš ZITADEL",
+      "DESCRIPTION": "Tento seznam pomáhá nastavit vaši instanci a provede vás nejdůležitějšími kroky"
     },
     "MILESTONES": {
       "instance.policy.label.added": {
-        "title": "Nastavte svou značku",
-        "description": "Definujte barvu a tvar vašeho přihlašovacího okna a nahrajte své logo a ikony.",
+        "title": "Nastavte vaši značku",
+        "description": "Definujte barvu a tvar vašeho přihlašovacího okna a nahrajte vaše logo a ikony.",
         "action": "Nastavit branding"
       },
       "instance.smtp.config.added": {
@@ -83,9 +83,9 @@
         "action": "Přidat uživatele"
       },
       "user.grant.added": {
-        "title": "Přidělit uživatelům",
+        "title": "Přidělit uživatelům přístup",
         "description": "Umožněte uživatelům přístup k vaší aplikaci a nastavte jejich role.",
-        "action": "Přidělit uživatele"
+        "action": "Přidělit uživatelské přístupy"
       }
     }
   },
@@ -94,7 +94,7 @@
     "DASHBOARD": "Domů",
     "PERSONAL_INFO": "Osobní informace",
     "DOCUMENTATION": "Dokumentace",
-    "INSTANCEOVERVIEW": "Přehled instance",
+    "INSTANCEOVERVIEW": "Instance",
     "ORGS": "Organizace",
     "VIEWS": "Pohledy",
     "EVENTS": "Události",
@@ -106,7 +106,7 @@
     "ROLES": "Role",
     "GRANTEDPROJECT": "Pověřené projekty",
     "HUMANUSERS": "Uživatelé",
-    "MACHINEUSERS": "Služboví uživatelé",
+    "MACHINEUSERS": "Systémoví uživatelé",
     "LOGOUT": "Odhlásit všechny uživatele",
     "NEWORG": "Nová organizace",
     "IAMADMIN": "Jste administrátor IAM. Vezměte prosím na vědomí, že máte rozšířená oprávnění.",
@@ -115,7 +115,7 @@
     "ACTIONS": "Akce",
     "PRIVACY": "Soukromí",
     "TOS": "Podmínky služby",
-    "OPENSHORTCUTSTOOLTIP": "Stiskněte ?, aby se zobrazily klávesové zkratky",
+    "OPENSHORTCUTSTOOLTIP": "Pro zobrazení klávesových zkratek stiskněte ?",
     "SETTINGS": "Nastavení",
     "CUSTOMERPORTAL": "Zákaznický portál"
   },
@@ -174,7 +174,7 @@
     "UNSAVEDCHANGES": "Neuložené změny",
     "UNSAVED": {
       "DIALOG": {
-        "DESCRIPTION": "Jste si jisti, že chcete zrušit tuto novou akci? Vaše akce bude ztracena",
+        "DESCRIPTION": "Jste si jisti, že chcete zahodit tuto akci? Vaše akce bude ztracena",
         "CANCEL": "Zrušit",
         "DISCARD": "Zahodit"
       }
@@ -294,13 +294,13 @@
       "METADATA": "Metadata"
     },
     "TITLE": "Osobní informace",
-    "DESCRIPTION": "Spravujte své informace a nastavení zabezpečení.",
+    "DESCRIPTION": "Správa osobních informací a nastavení zabezpečení.",
     "PAGES": {
       "LIST": "Uživatelé",
       "TITLE": "Uživatel",
       "DESCRIPTION": "Vytvořte nové uživatele ve vaší organizaci a spravujte stávající.",
-      "LISTMACHINE": "Služební uživatelé",
-      "DESCRIPTIONMACHINE": "Vytvořte a spravujte služební uživatele vaší organizace",
+      "LISTMACHINE": "Systémoví uživatelé",
+      "DESCRIPTIONMACHINE": "Vytvořte a spravujte systémové uživatele vaší organizace",
       "DETAIL": "Detail",
       "CREATE": "Vytvořit",
       "MY": "Moje informace",
@@ -314,11 +314,11 @@
       "STATE": "Stav",
       "DELETE": "Smazat uživatele",
       "UNLOCK": "Odemknout uživatele",
-      "GENERATESECRET": "Generovat klientův tajný klíč",
-      "REMOVESECRET": "Odstranit klientův tajný klíč",
-      "LOCKEDDESCRIPTION": "Tento uživatel byl zablokován kvůli překročení maximálního počtu pokusů o přihlášení a musí být odemknut pro další použití.",
+      "GENERATESECRET": "Generovat klientský tajný klíč",
+      "REMOVESECRET": "Odstranit klientský tajný klíč",
+      "LOCKEDDESCRIPTION": "Tento uživatel byl zablokován kvůli překročení maximálního počtu pokusů o přihlášení a před dalším použitím musí být odemknut.",
       "DELETEACCOUNT": "Smazat účet",
-      "DELETEACCOUNT_DESC": "Pokud provedete tuto akci, budete odhlášeni a už nebudete mít přístup k vašemu účtu. Tato akce je nevratná, takže prosím pokračujte s opatrností.",
+      "DELETEACCOUNT_DESC": "Pokud provedete tuto akci, budete odhlášeni a už nebudete mít přístup k vašemu účtu. Tato akce je nevratná, prosím pokračujte s opatrností.",
       "DELETEACCOUNT_BTN": "Smazat účet",
       "DELETEACCOUNT_SUCCESS": "Účet byl úspěšně smazán!"
     },
@@ -342,8 +342,8 @@
       "NEWEMAIL": "Nová e-mailová adresa"
     },
     "SECRETDIALOG": {
-      "CLIENTSECRET": "Klientský tajný klíč",
-      "CLIENTSECRET_DESCRIPTION": "Uchovávejte váš klientský tajný klíč na bezpečném místě, protože po zavření dialogového okna zmizí."
+      "CLIENTSECRET": "Tajný klíč klienta",
+      "CLIENTSECRET_DESCRIPTION": "Zkopírujte a uchovejte tajný klíč klienta na bezpečném místě, po zavření dialogového okna již nebude k dispozici."
     },
     "TABLE": {
       "DEACTIVATE": "Deaktivovat",
@@ -352,7 +352,7 @@
       "CREATIONDATE": "Vytvořeno",
       "TYPES": {
         "HUMAN": "Uživatelé",
-        "MACHINE": "Služební uživatelé"
+        "MACHINE": "Systémoví uživatelé"
       },
       "FILTER": {
         "0": "Filtr pro Zobrazované jméno",
@@ -468,7 +468,7 @@
       "NAMEANDEMAILSECTION": "Jméno a e-mail",
       "GENDERLANGSECTION": "Pohlaví a jazyk",
       "PHONESECTION": "Telefonní čísla",
-      "PASSWORDSECTION": "Počáteční heslo",
+      "PASSWORDSECTION": "Prvotní heslo",
       "ADDRESSANDPHONESECTION": "Telefonní číslo",
       "INITMAILDESCRIPTION": "Pokud jsou vybrány obě možnosti, nebude odeslán e-mail pro inicializaci. Pokud je vybrána pouze jedna z možností, bude odeslán e-mail pro poskytnutí/ověření údajů."
     },
@@ -491,7 +491,7 @@
       "TITLE": "Profil",
       "EMAIL": "E-mail",
       "PHONE": "Telefonní číslo",
-      "PHONE_HINT": "Použijte symbol + následovaný mezinárodním kódem země, nebo z vyklopného seznamu vyberte zemi a nakonec zadejte telefonní číslo",
+      "PHONE_HINT": "Použijte symbol + následovaný mezinárodním kódem země, nebo ze seznamu vyberte zemi a nakonec zadejte telefonní číslo",
       "USERNAME": "Uživatelské jméno",
       "CHANGEUSERNAME": "upravit",
       "CHANGEUSERNAME_TITLE": "Změna uživatelského jména",
@@ -516,7 +516,7 @@
       "COUNTRY": "Země"
     },
     "MACHINE": {
-      "TITLE": "Detaily služebního uživatele",
+      "TITLE": "Detaily systémového uživatele",
       "USERNAME": "Uživatelské jméno",
       "NAME": "Název",
       "DESCRIPTION": "Popis",
@@ -669,7 +669,7 @@
       "SELECTEDDEACTIVATED": "Vybraní uživatelé deaktivováni.",
       "SELECTEDKEYSDELETED": "Vybrané klíče smazány.",
       "KEYADDED": "Klíč přidán!",
-      "MACHINEADDED": "Služební uživatel vytvořen!",
+      "MACHINEADDED": "Systémový uživatel vytvořen!",
       "DELETED": "Uživatel úspěšně smazán!",
       "UNLOCKED": "Uživatel úspěšně odemčen!",
       "PASSWORDLESSREGISTRATIONSENT": "Odkaz pro registraci odeslán úspěšně.",
@@ -677,7 +677,7 @@
       "SECRETREMOVED": "Tajemství úspěšně odstraněno!"
     },
     "MEMBERSHIPS": {
-      "TITLE": "Role manažera ZITADEL",
+      "TITLE": "Manažerské role v ZITADEL",
       "DESCRIPTION": "Zde jsou všechna členská oprávnění uživatele. Můžete je upravovat také na stránkách detailů organizace, projektu nebo IAM.",
       "ORGCONTEXT": "Vidíte všechny organizace a projekty, které souvisí s aktuálně vybranou organizací.",
       "USERCONTEXT": "Vidíte všechny organizace a projekty, na které máte oprávnění. Včetně jiných organizací.",
@@ -703,11 +703,11 @@
         "TITLE": "Vygenerovat nový osobní přístupový token",
         "DESCRIPTION": "Stanovte vlastní datum expirace tokenu.",
         "CHOOSEEXPIRY": "Vyberte datum expirace",
-        "CHOOSEDATEAFTER": "Zadejte platné datum expirace po"
+        "CHOOSEDATEAFTER": "Zadejte platné datum expirace. Po ..."
       },
       "ADDED": {
         "TITLE": "Osobní přístupový token",
-        "DESCRIPTION": "Ujistěte se, že jste si svůj osobní přístupový token zkopírovali. Už ho nebudete moci znovu vidět!"
+        "DESCRIPTION": "Ujistěte se, že jste si svůj osobní přístupový token zkopírovali. Později ho již nelze zobrazit."
       },
       "DELETE": {
         "TITLE": "Smazat token",
@@ -791,8 +791,8 @@
       "DESCRIPTION": "Spravujte vaše globální politiky a nastavení přístupu k managementu."
     },
     "EVENTSTORE": {
-      "TITLE": "Administrace úložiště IAM",
-      "DESCRIPTION": "Spravujte vaše ZITADEL pohledy a selhané události."
+      "TITLE": "Administrace úložiště systému IAM",
+      "DESCRIPTION": "Správa nastavení ukládání systému ZIDATEL."
     },
     "MEMBER": {
       "TITLE": "Manažeři",
@@ -830,7 +830,7 @@
       "DESCRIPTION": "Tato karta zobrazuje vaše selhané události.",
       "VIEWNAME": "Název",
       "DATABASE": "Databáze",
-      "FAILEDSEQUENCE": "Sekvence selhání",
+      "FAILEDSEQUENCE": "dotčená sekvence",
       "FAILURECOUNT": "Počet selhání",
       "LASTFAILED": "Poslední selhání",
       "ERRORMESSAGE": "Chybová zpráva",
@@ -850,7 +850,7 @@
       "SEQUENCE": "Sekvence",
       "CREATIONDATE": "Datum vytvoření",
       "TYPE": "Typ",
-      "PAYLOAD": "Náklad",
+      "PAYLOAD": "Obsah",
       "FILTERS": {
         "BTN": "Filtr",
         "USER": {
@@ -906,7 +906,7 @@
       "CREATIONDATE": "Datum vytvoření",
       "DATECHANGED": "Změněno",
       "FILTER": "Filtr",
-      "FILTERPLACEHOLDER": "Filtr pro název",
+      "FILTERPLACEHOLDER": "Filtrujte podle jmen",
       "LIST": "Organizace",
       "LISTDESCRIPTION": "Vyberte organizaci.",
       "ACTIVE": "Aktivní",
@@ -953,12 +953,12 @@
     },
     "LIST": {
       "TITLE": "Organizace",
-      "DESCRIPTION": "To jsou organizace ve vaší instanci"
+      "DESCRIPTION": "Organizace ve vaší instanci"
     },
     "DOMAINS": {
       "NEW": "Přidat doménu",
       "TITLE": "Ověřené domény",
-      "DESCRIPTION": "Konfigurujte domény vaší organizace. Tato doména může být použita pro objevování domény a připojení uživatelských jmen.",
+      "DESCRIPTION": "Konfigurujte domény vaší organizace. Tato doména může být použita pro zjišťování domény a připojení uživatelských jmen.",
       "SETPRIMARY": "Nastavit jako primární",
       "DELETE": {
         "TITLE": "Smazat doménu",
@@ -966,7 +966,7 @@
       },
       "ADD": {
         "TITLE": "Přidat doménu",
-        "DESCRIPTION": "Chystáte se přidat doménu pro vaši organizaci. Po úspěšném procesu bude možné doménu použít pro objevování domény a jako příponu pro vaše uživatele."
+        "DESCRIPTION": "Chystáte se přidat doménu pro vaši organizaci. Po úspěšném procesu bude možné doménu použít pro zjišťování domény a jako příponu pro vaše uživatele."
       }
     },
     "STATE": {
@@ -1031,7 +1031,7 @@
       "IDP": "Poskytovatelé identity",
       "VERIFIED_DOMAINS": "Ověřené domény",
       "DOMAIN": "Nastavení domény",
-      "LOGINTEXTS": "Texty rozhraní přihlášení",
+      "LOGINTEXTS": "Texty přihlašovací stránky",
       "BRANDING": "Branding",
       "PRIVACYPOLICY": "Zásady ochrany osobních údajů",
       "OIDC": "Životnost a expirace OIDC tokenu",
@@ -1122,7 +1122,7 @@
         "3": "Ověření telefonem",
         "4": "Resetování hesla",
         "5": "Inicializace bez hesla",
-        "6": "Tajemství aplikace",
+        "6": "Tajemství pomocí aplikace",
         "7": "Jednorázové heslo (OTP) - SMS",
         "8": "Jednorázové heslo (OTP) - E-mail"
       },
@@ -1249,9 +1249,9 @@
       "RESET_DESCRIPTION": "Chystáte se obnovit výchozí odkazy pro Podmínky služby a Zásady ochrany osobních údajů. Opravdu chcete pokračovat?"
     },
     "LOGIN_TEXTS": {
-      "TITLE": "Texty rozhraní přihlášení",
-      "DESCRIPTION": "Definujte své texty pro rozhraní přihlášení. Pokud jsou texty prázdné, použije se výchozí hodnota zobrazená jako zástupný text.",
-      "DESCRIPTION_SHORT": "Definujte své texty pro rozhraní přihlášení.",
+      "TITLE": "Texty přihlašovací stránky",
+      "DESCRIPTION": "Definujte své texty pro přihlašovací stránku. Pokud jsou texty prázdné, použije se výchozí hodnota zobrazená jako zástupný text.",
+      "DESCRIPTION_SHORT": "Definujte své texty pro přihlašovací stránku.",
       "NEWERVERSIONEXISTS": "Existuje novější verze",
       "CURRENTDATE": "Současná konfigurace",
       "CHANGEDATE": "Novější verze od",
@@ -1372,7 +1372,7 @@
       "ALLOWEXTERNALIDP": "Povoleno externí IDP",
       "ALLOWREGISTER": "Registrace povolena",
       "ALLOWUSERNAMEPASSWORD_DESC": "Je povoleno klasické přihlášení s uživatelským jménem a heslem.",
-      "ALLOWEXTERNALIDP_DESC": "Je povoleno přihlášení pro podkladové poskytovatele identit",
+      "ALLOWEXTERNALIDP_DESC": "Přihlášení je povoleno pro níže uvedené poskytovatele identity.",
       "ALLOWREGISTER_DESC": "Pokud je možnost vybrána, objeví se při přihlášení další krok pro registraci uživatele.",
       "FORCEMFA": "Vynutit MFA",
       "FORCEMFA_DESC": "Pokud je možnost vybrána, uživatelé musí pro přihlášení nastavit druhý faktor.",
@@ -1454,7 +1454,7 @@
       "CREATE_DESC": "Vložte název vašeho projektu.",
       "ROLE": "Role",
       "NOITEMS": "Žádné projekty",
-      "ZITADELPROJECT": "To patří k projektu ZITADEL. Pozor: Pokud provedete změny, ZITADEL se nemusí chovat podle očekávání.",
+      "ZITADELPROJECT": "Tato nastavení jsou základní nastavení instance projektu ZITADEL. Pozor: Pokud provedete změny, ZITADEL se nemusí chovat podle očekávání.",
       "TYPE": {
         "OWNED": "Vlastní projekty",
         "GRANTED": "Přidělené projekty",
@@ -1634,7 +1634,7 @@
     "HAS_PROJECT": "Kontrola projektu při autentizaci",
     "HAS_PROJECT_DESCRIPTION": "Je kontrolováno, zda organizace uživatele má tento projekt. Pokud ne, uživatel nemůže být autentizován.",
     "TABLE": {
-      "TOTAL": "Celkem záznamů:",
+      "TOTAL": "Celkem:",
       "SELECTION": "Vybrané elementy",
       "DEACTIVATE": "Deaktivovat projekt",
       "ACTIVATE": "Aktivovat projekt",
@@ -1686,39 +1686,39 @@
       "DESCRIPTION": "Vyberte jednoho nebo více z následujících poskytovatelů.",
       "STEPPERTITLE": "Vytvořit poskytovatele",
       "OIDC": {
-        "TITLE": "OIDC Poskytovatel",
+        "TITLE": "OIDC",
         "DESCRIPTION": "Zadejte požadovaná data pro vašeho OIDC poskytovatele."
       },
       "OAUTH": {
-        "TITLE": "OAuth Poskytovatel",
+        "TITLE": "OAuth",
         "DESCRIPTION": "Zadejte požadovaná data pro vašeho OAuth poskytovatele."
       },
       "JWT": {
-        "TITLE": "JWT Poskytovatel",
+        "TITLE": "JWT",
         "DESCRIPTION": "Zadejte požadovaná data pro vašeho JWT poskytovatele."
       },
       "GOOGLE": {
-        "TITLE": "Google Poskytovatel",
+        "TITLE": "Google",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho poskytovatele identity Google"
       },
       "GITLAB": {
-        "TITLE": "Gitlab Poskytovatel",
+        "TITLE": "Gitlab",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho poskytovatele identity Gitlab"
       },
       "GITLABSELFHOSTED": {
-        "TITLE": "Gitlab Samostatně Hostovaný Poskytovatel",
+        "TITLE": "Gitlab – samostatně hostovaný",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho samostatně hostovaného poskytovatele identity Gitlab"
       },
       "GITHUBES": {
-        "TITLE": "GitHub Enterprise Server Poskytovatel",
+        "TITLE": "GitHub Enterprise Server",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho poskytovatele identity GitHub Enterprise Server"
       },
       "GITHUB": {
-        "TITLE": "Github Poskytovatel",
+        "TITLE": "Github",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho poskytovatele identity Github"
       },
       "AZUREAD": {
-        "TITLE": "Microsoft Poskytovatel",
+        "TITLE": "Microsoft",
         "DESCRIPTION": "Zadejte přihlašovací údaje pro vašeho poskytovatele identity Microsoft"
       },
       "LDAP": {
@@ -1780,7 +1780,7 @@
     "IDATTRIBUTE": "ID atribut",
     "AVAILABILITY": "Dostupnost",
     "AVAILABLE": "dostupný",
-    "AVAILABLEBUTINACTIVE": "dostupný ale neaktivní",
+    "AVAILABLEBUTINACTIVE": "dostupný, ale neaktivní",
     "SETAVAILABLE": "nastavit jako dostupné",
     "SETUNAVAILABLE": "nastavit jako nedostupné",
     "CONFIG": "Konfigurace",
@@ -1795,7 +1795,7 @@
     "BINDDN": "Dn pro vazbu",
     "BINDPASSWORD": "Heslo pro vazbu",
     "SERVERS": "Servery",
-    "STARTTLS": "Zahájit TLS",
+    "STARTTLS": "STARTTLS",
     "TIMEOUT": "Časový limit v sekundách",
     "USERBASE": "Základ uživatele",
     "USERFILTERS": "Filtry uživatele",
@@ -1851,12 +1851,12 @@
     },
     "TOAST": {
       "SAVED": "Úspěšně uloženo.",
-      "REACTIVATED": "Idp reaktivováno.",
-      "DEACTIVATED": "Idp deaktivováno.",
-      "SELECTEDREACTIVATED": "Vybrané Idp byly reaktivovány.",
-      "SELECTEDDEACTIVATED": "Vybrané Idp byly deaktivovány.",
-      "SELECTEDKEYSDELETED": "Vybrané Idp byly smazány.",
-      "DELETED": "Idp bylo úspěšně odstraněno!",
+      "REACTIVATED": "IDP reaktivován.",
+      "DEACTIVATED": "IDP deaktivován.",
+      "SELECTEDREACTIVATED": "Vybraní IDP byli reaktivováni.",
+      "SELECTEDDEACTIVATED": "Vybraní IDP byli deaktivováni.",
+      "SELECTEDKEYSDELETED": "Vybraní IDP byli smazáni.",
+      "DELETED": "IDP byl úspěšně odstraněn!",
       "ADDED": "Úspěšně přidáno.",
       "REMOVED": "Úspěšně odebráno."
     },
@@ -1976,9 +1976,9 @@
     "AUTHMETHOD": "Metoda autentizace",
     "AUTHMETHODSECTION": "Metoda autentizace",
     "GRANT": "Typy pověření",
-    "ADDITIONALORIGINS": "Další původy",
-    "ADDITIONALORIGINSDESC": "Pokud chcete přidat k vaší aplikaci další původy, které nejsou používány jako přesměrování, můžete to udělat zde.",
-    "ORIGINS": "Původy",
+    "ADDITIONALORIGINS": "Další origins",
+    "ADDITIONALORIGINSDESC": "Pokud chcete přidat k vaší aplikaci další origins (původy), které nejsou používány jako přesměrování, můžete to udělat zde.",
+    "ORIGINS": "Origins (původy)",
     "NOTANORIGIN": "Zadaná hodnota není původ",
     "PROSWITCH": "Jsem profesionál. Přeskočit tohoto průvodce.",
     "NAMEANDTYPESECTION": "Název a typ",
@@ -2004,7 +2004,7 @@
       "CLIENTID": "ID klienta",
       "CLIENTSECRET": "Tajemství klienta",
       "CLIENTSECRET_NOSECRET": "S vaším vybraným způsobem autentizace není požadováno žádné tajemství a proto není dostupné.",
-      "CLIENTSECRET_DESCRIPTION": "Uchovávejte vaše klientovo tajemství na bezpečném místě, protože jakmile je dialog zavřen, zmizí.",
+      "CLIENTSECRET_DESCRIPTION": "Uchovávejte toto tajemství klienta na bezpečném místě, jakmile je dialog zavřen, nelze jej již znovu zobrazit.",
       "REGENERATESECRET": "Regenerovat tajemství klienta",
       "DEVMODE": "Vývojový režim",
       "DEVMODE_ENABLED": "Povoleno",
@@ -2054,7 +2054,7 @@
       "IDTOKENROLEASSERTION": "Role uživatele uvnitř ID tokenu",
       "IDTOKENROLEASSERTION_DESCRIPTION": "Pokud je vybráno, požadované role ověřeného uživatele jsou přidány do ID tokenu.",
       "IDTOKENUSERINFOASSERTION": "Informace o uživateli uvnitř ID tokenu",
-      "IDTOKENUSERINFOASSERTION_DESCRIPTION": "Umožňuje klientům získávat nároky na profil, email, telefon a adresu z ID tokenu.",
+      "IDTOKENUSERINFOASSERTION_DESCRIPTION": "Umožňuje klientům získávat nároky (claims) na profil, email, telefon a adresu z ID tokenu.",
       "CLOCKSKEW": "Umožňuje klientům zvládnout rozdíl času mezi OP a klientem. Doba trvání (0-5s) bude přidána k nároku exp a odečtena od iats, auth_time a nbf.",
       "RECOMMENDED": "doporučeno",
       "NOTRECOMMENDED": "nedoporučeno",
@@ -2070,7 +2070,7 @@
           },
           "USERAGENT": {
             "TITLE": "Uživatelský Agent",
-            "DESCRIPTION": "Single Page Aplikace (SPA) a obecně všechny JS frameworky prováděné v prohlížečích"
+            "DESCRIPTION": "Single Page Aplikace (SPA) a obecně všechny JS frameworky spouštěné v prohlížečích"
           }
         }
       }

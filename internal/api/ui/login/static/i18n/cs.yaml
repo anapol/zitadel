@@ -1,8 +1,8 @@
 Login:
   Title: Vítejte zpět!
-  Description: Zadejte svá přihlašovací údaje.
+  Description: Zadejte své přihlašovací údaje.
   TitleLinking: Přihlášení pro propojení uživatele
-  DescriptionLinking: Zadejte svá přihlašovací údaje pro propojení vašeho externího účtu.
+  DescriptionLinking: Zadejte své přihlašovací údaje pro propojení vašeho externího účtu.
   LoginNameLabel: Přihlašovací jméno
   UsernamePlaceHolder: uživatelské jméno
   LoginnamePlaceHolder: uzivatelskejmeno@doména
@@ -13,7 +13,7 @@ Login:
 
 LDAP:
   Title: Přihlášení
-  Description: Zadejte svá přihlašovací údaje.
+  Description: Zadejte své přihlašovací údaje.
   LoginNameLabel: Přihlašovací jméno
   PasswordLabel: Heslo
   NextButtonText: Další
@@ -22,7 +22,7 @@ SelectAccount:
   Title: Vyberte účet
   Description: Použijte svůj účet
   TitleLinking: Vyberte účet pro propojení uživatele
-  DescriptionLinking: Vyberte svůj účet pro propojení s vaším externím uživatelem.
+  DescriptionLinking: Vyberte účet pro propojení s vaším externím uživatelem.
   OtherUser: Jiný uživatel
   SessionState0: aktivní
   SessionState1: Odhlášen
@@ -30,7 +30,7 @@ SelectAccount:
 
 Password:
   Title: Heslo
-  Description: Zadejte svá přihlašovací údaje.
+  Description: Zadejte své přihlašovací údaje.
   PasswordLabel: Heslo
   MinLength: Minimální délka
   HasUppercase: Velké písmeno
@@ -56,7 +56,7 @@ UsernameChangeDone:
 
 InitPassword:
   Title: Nastavit heslo
-  Description: Obdrželi jste kód, který musíte níže vložit, abyste nastavili své nové heslo.
+  Description: Obdrželi jste kód, který musíte vložit níže, abyste nastavili své nové heslo.
   CodeLabel: Kód
   NewPasswordLabel: Nové heslo
   NewPasswordConfirmLabel: Potvrzení hesla
@@ -71,7 +71,7 @@ InitPasswordDone:
 
 InitUser:
   Title: Aktivovat uživatele
-  Description: Ověřte svůj e-mail pomocí níže uvedeného kódu a nastavte své heslo.
+  Description: Ověřte váš e-mail pomocí níže uvedeného kódu a nastavte své heslo.
   CodeLabel: Kód
   NewPasswordLabel: Nové heslo
   NewPasswordConfirm: Potvrzení hesla
@@ -86,7 +86,7 @@ InitUserDone:
 
 InitMFAPrompt:
   Title: Nastavení 2-faktorové autentizace
-  Description: 2-faktorová autentizace vám poskytuje další zabezpečení pro váš uživatelský účet. Tím je zajištěno, že k vašemu účtu má přístup pouze vy.
+  Description: 2-faktorová autentizace vám poskytuje další zabezpečení pro váš uživatelský účet. Tím je zajištěno, že k vašemu účtu máte přístup pouze vy.
   Provider0: Aplikace pro ověřování (např. Google/Microsoft Authenticator, Authy)
   Provider1: Zařízením závislé (např. FaceID, Windows Hello, Otisk prstu)
   Provider3: OTP SMS
@@ -136,20 +136,20 @@ MFAProvider:
 
 VerifyMFAOTP:
   Title: Ověřte 2-Faktor
-  Description: Ověřte svůj druhý faktor
+  Description: Ověřte váš druhý faktor
   CodeLabel: Kód
   NextButtonText: Další
 
 VerifyOTP:
   Title: Ověřte 2-Faktor
-  Description: Ověřte svůj druhý faktor
+  Description: Ověřte váš druhý faktor
   CodeLabel: Kód
   ResendButtonText: Znovu poslat kód
   NextButtonText: Další
 
 VerifyMFAU2F:
   Title: 2-Faktorové ověření
-  Description: Ověřte svůj 2-Faktor pomocí registrovaného zařízení (např. FaceID, Windows Hello, Otisk prstu)
+  Description: Ověřte váš 2-Faktor pomocí registrovaného zařízení (např. FaceID, Windows Hello, Otisk prstu)
   NotSupported: WebAuthN není podporován vaším prohlížečem. Ujistěte se, že používáte nejnovější verzi, nebo změňte prohlížeč na podporovaný (Chrome, Safari, Firefox)
   ErrorRetry: Zkuste to znovu, vytvořte nový požadavek nebo vyberte jinou metodu.
   ValidateTokenButtonText: Ověřte 2-Faktor
@@ -202,7 +202,7 @@ PasswordChangeDone:
 
 PasswordResetDone:
   Title: Odkaz na resetování hesla odeslán
-  Description: Zkontrolujte svůj e-mail, abyste resetovali své heslo.
+  Description: Pro dokončení změny hesla zkontrolujte váš e-mail a postupujte podle instrukcí.
   NextButtonText: Další
 
 EmailVerification:
