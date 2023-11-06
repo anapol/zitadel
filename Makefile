@@ -2,7 +2,8 @@ go_bin := "$$(go env GOPATH)/bin"
 gen_authopt_path := "$(go_bin)/protoc-gen-authoption"
 gen_zitadel_path := "$(go_bin)/protoc-gen-zitadel"
 
-now := $(shell date --rfc-3339=seconds | sed 's/ /T/')
+now := $(shell date --rfc-3339=seconds 2>/dev/null || date "+%Y-%m-%dT%H:%M:%S%z" | sed 's/\(.*\)\(..\)/\1:\2/')
+
 VERSION ?= development-$(now)
 COMMIT_SHA ?= $(shell git rev-parse HEAD)
 
